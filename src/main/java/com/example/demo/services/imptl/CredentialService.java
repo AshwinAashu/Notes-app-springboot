@@ -17,11 +17,6 @@ public class CredentialService implements CredentialServiceImptl{
 	private SpringMongoRepository credRepo;
 	
 
-//	@Override
-//	public List<Credentials> getcredRepoByUsername(String username){
-//			
-//			return credRepo.findByUsername(username);
-//		}  
 	
 	@Override 
 	public Credentials create(String Username, String Password) {
